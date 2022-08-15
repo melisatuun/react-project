@@ -1,6 +1,5 @@
-import styled from 'style-components'
+import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
-import { startTransition } from 'react'
 
 export const Nav = styled.nav`
     background:#000;
@@ -29,13 +28,13 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-color:#fff;
-justify-self:flex-start;
-cursor:pointer;
-font-size:1.5rem;
-display:flex;
-align-items:center;
-margin-left:24px;
-font-weight:bold;
-text-decoration:none;
+    color:#fff;
+    justify-self:flex-start;
+    cursor:pointer;
+    font-size:1.5rem;
+    display:flex;
+    align-items:center;
+    margin-left:24px;
+    font-weight:bold;
+    text-decoration:none;
 `
