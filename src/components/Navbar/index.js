@@ -1,18 +1,10 @@
 import React from 'react';
-import {Nav, NavbarContainer, NavLogo} from './NavbarElements'
 
-const Navbar = () => {
+function App() {
     return (
-        <>
-            <Nav>
-                <NavbarContainer>
-                    <NavLogo>
-                    dolla
-                    </NavLogo>
-                </NavbarContainer>
-            </Nav>
-        </>
+        <div style={{ backgroundImage: "url(/img/flowers.jpg)" }}>
+            Hello World
+        </div>
     );
-};
-
-export default Navbar;
+}
+export default App;
